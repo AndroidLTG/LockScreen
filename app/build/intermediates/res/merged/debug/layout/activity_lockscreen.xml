@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/full_page_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <SeekBar
+            android:id="@+id/myseek"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/slider"
+            android:clickable="false"
+            android:max="100"
+
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:progressDrawable="@android:color/transparent"
+            android:text="Do Not Touch"
+            android:thumb="@drawable/next"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" />
+
+
+
+        <TextView
+            android:id="@+id/slider_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Trượt để mở khóa"
+            android:textColor="#fff"
+            android:textSize="22dp" />
+
+
+    </RelativeLayout>
+
+   <LinearLayout
+       android:layout_alignParentTop="true"
+       android:background="@drawable/background"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:text="5:23"
+           android:id="@+id/txttime"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:textSize="50dp"
+           android:paddingTop="170dp"
+           android:gravity="center_horizontal|center_vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+   </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/TIENDATA/TIENPROJECT/LockScreen/app/src/main/res/layout/activity_lockscreen.xml -->

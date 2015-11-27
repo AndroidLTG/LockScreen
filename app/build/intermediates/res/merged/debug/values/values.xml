@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/TIENDATA/TIENPROJECT/LockScreen/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#F5DC49</color>
+    <!-- From: file:/E:/TIENDATA/TIENPROJECT/LockScreen/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/E:/TIENDATA/TIENPROJECT/LockScreen/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">LockScreenApp</string>
+    <string name="instructions">Click on UNLOCK button to unlock the screen</string>
+    <string name="unlock">UNLOCK</string>
+    <!-- From: file:/E:/TIENDATA/TIENPROJECT/LockScreen/app/src/main/res/values/style.xml -->
+    <eat-comment/>
+    <style name="OverlayDialog" parent="@android:style/Theme.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowFrame">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowIsTranslucent">false</item>
+    <item name="android:backgroundDimEnabled">false</item>
+</style>
+    <style name="Theme.Transparent" parent="android:Theme">
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:windowNoTitle">true</item>
+
+            <item name="android:backgroundDimEnabled">false</item>
+        </style>
+</resources>
